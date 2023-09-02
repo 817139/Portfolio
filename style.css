@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+    /* background:#c2dde6; */
+    background-image: linear-gradient(to left,#51e2f5,#cdd422);
+    
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+   
+}
+.container{
+   width: 1000px;
+   margin: 0 auto;
+}
+.navbar{
+    width: 100%;
+    height: 80px;
+    /* margin: 0 auto; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo{
+    font-size: 30px;
+    font-weight: 700;
+}
+.navbar .logo::first-letter{
+    color: black;
+    
+}
+
+.navbar .nav-links{
+    display: flex;
+    gap: 50px;
+}
+.navbar .nav-links > li{
+  list-style: none;
+}
+.navbar .nav-links li>a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+   
+}
+.bar{
+    display: none;
+}
+.personal-info{
+    height: inherit;
+    width: 50%;
+
+}
+.personal-info .main{
+   width: 40%;
+   position: absolute;
+   top: 50%;
+   line-height:65px;
+
+}
+.personal-info .main>p{
+   font-size: 20px;
+   font-weight: 500;
+   opacity: 0.6;
+}
+.personal-info .main>span{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.personal-info .main > h2{
+    font-size: 70px;
+    font-weight: 900;
+    -webkit-text-stroke: 2px black;
+     color: transparent;
+}
+
+
+
+.about-me{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.about-me .about-content{
+    width: 50%;
+    height: inherit;
+    height: 100vh;
+   
+}
+.content{
+    position: relative;
+    top: 40%;
+    
+}
+.content p{
+    line-height: 25px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.content h2{
+    font-size: 40px;
+    font-weight: 700;
+    -webkit-text-stroke: 2px black;
+    color: transparent;
+}
+.btn{
+    padding: 10px 25px;
+    border-radius: 3px;
+    border: none;
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 700;
+    color:black;
+}
+.imgess{
+    width: 50%;
+    height: inherit;
+}
+.about-me .image1{
+    position: relative;
+    top: 40%;
+    
+}
+.about-me .imgess .image1 img{
+    width: 80%;
+    border-radius: 50%;
+    background: linear-gradient(green,#333);
+    padding: 10px;
+    filter: drop-shadow(0 0 34px yellow);
+}
+.my-skills{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.my-skills .html,.css, .js{
+    width: 30%;
+    height: 55%;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 1px 1px 10px #222;
+    border-radius: 5px;
+    line-height: 25px;
+    color: white;
+    background: #000;
+}
+
+.container > h3{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    color: white;
+    -webkit-text-stroke: 2px black;
+    color: transparent;
+}
+
+.my-skills .html > i{
+    font-size: 50px;
+}
+.my-skills .css > i{
+    font-size: 50px;
+}
+.my-skills .js > i{
+    font-size: 50px;
+}
+.my-skills .btns {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+.footer{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 30px;
+    gap: 70px;
+    text-align: center;
+    color: #fff;
+}
+.resume h4{
+   font-size: 30px;
+   font-weight: 800;
+}
+.footer .contact-me{
+   line-height: 60px;
+    
+}
+.footer .contact-me h3{
+  font-size: 30px;
+  font-weight: 800;
+}
+.footer .btns{
+    margin-top: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+.footer h2{
+    font-size: 70px;
+    font-weight: 900;
+    -webkit-text-stroke: 2px black;
+     color: transparent;
+}
+.social-media a i{
+   color: black;
+   font-size: 40px;
+   padding-right: 20px;
+}
+
+button:hover{
+    background-color: #d32d41;
+}
+
+
+
+
+
+
+    
